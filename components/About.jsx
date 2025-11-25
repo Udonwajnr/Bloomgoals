@@ -22,20 +22,25 @@ const About = () => {
               Bloomgoals Advisory provides bespoke transactional, operational,
               and legal advisory services to startups, entrepreneurs, project
               sponsors, SMEs, and high-growth ventures across Nigeria. Founded
-              in 2025, the firm supports clients from ideation to scale with
-              practical legal and business solutions.
+              in 2025 by Abasi-Akara Edet, Agbo Obinnaya, and Afolabi David, the
+              firm supports clients from ideation to scale with practical legal
+              and business solutions.
             </p>
             <p>
               We help clients structure their products, operations, and
               projects, navigate complex regulatory landscapes, and access
-              capital for sustainable growth.
+              capital for sustainable growth. Our multidisciplinary expertise
+              across strategy, finance, and law, combined with a deep
+              understanding of Nigeria’s regulatory environment, enables us to
+              deliver end-to-end tailored solutions from business formation
+              through fundraising and expansion.
             </p>
-            <p>
+            {/* <p>
               Our multidisciplinary expertise across strategy, finance, and law,
               combined with a deep understanding of Nigeria’s regulatory
               environment, enables us to deliver end-to-end tailored solutions
               from business formation through fundraising and expansion.
-            </p>
+            </p> */}
           </div>
         </div>
 
