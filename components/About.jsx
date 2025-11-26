@@ -14,33 +14,23 @@ const About = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl sm:text-5xl text-brand-blue leading-tight"
           >
-            Bespoke transactional, operational, and legal advisory services.
+            Where Ambitious Ventures Come to Clarity and Direction
           </motion.h2>
 
           <div className="font-sans text-gray-700 space-y-6 text-base sm:text-lg leading-relaxed text-justify">
             <p>
-              Bloomgoals Advisory provides bespoke transactional, operational,
-              and legal advisory services to startups, entrepreneurs, project
-              sponsors, SMEs, and high-growth ventures across Nigeria. Founded
-              in 2025 by Abasi-Akara Edet, Agbo Obinnaya, and Afolabi David, the
-              firm supports clients from ideation to scale with practical legal
-              and business solutions.
+              At Bloomgoals Advisory, we provide strategic operational and legal
+              advisory services to startups, entrepreneurs, project sponsors,
+              SMEs and high growth ventures across Nigeria. Founded in 2025, the
+              firm helps clients structure their products, operations and
+              projects, navigate complex regulatory landscapes and access
+              capital for sustainable growth.
             </p>
             <p>
-              We help clients structure their products, operations, and
-              projects, navigate complex regulatory landscapes, and access
-              capital for sustainable growth. Our multidisciplinary expertise
-              across strategy, finance, and law, combined with a deep
-              understanding of Nigeria’s regulatory environment, enables us to
-              deliver end-to-end tailored solutions from business formation
+              With multidisciplinary perspectives in strategy, finance and law,
+              we deliver end to end tailored solutions from business formation
               through fundraising and expansion.
             </p>
-            {/* <p>
-              Our multidisciplinary expertise across strategy, finance, and law,
-              combined with a deep understanding of Nigeria’s regulatory
-              environment, enables us to deliver end-to-end tailored solutions
-              from business formation through fundraising and expansion.
-            </p> */}
           </div>
         </div>
 
@@ -50,7 +40,7 @@ const About = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1200&auto=format&fit=crop"
+            src="../img/lawerClass.png"
             alt="Advisory Meeting"
             className="w-full h-full object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
           />

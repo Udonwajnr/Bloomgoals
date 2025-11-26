@@ -33,11 +33,16 @@ const Lawyers = () => {
               onClick={() => setSelectedMember(member)}
             >
               <div className="w-full max-w-[320px] aspect-[3/4] overflow-hidden mb-6 bg-gray-200 relative shadow-md group-hover:shadow-xl transition-shadow duration-300">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
-                />
+                {/* Image with Grayscale and Tint */}
+                <div className="relative w-full h-full">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover object-top transition-all duration-700 ease-out group-hover:scale-105 grayscale group-hover:grayscale-0"
+                  />
+                  {/* Brand Tint Overlay (Visible when grayscale, fades out on hover) */}
+                  <div className="absolute inset-0 bg-brand-blue/20 mix-blend-multiply transition-opacity duration-700 group-hover:opacity-0 pointer-events-none" />
+                </div>
 
                 {/* LinkedIn Overlay */}
                 {member.linkedin && (
@@ -110,8 +115,9 @@ const Lawyers = () => {
                 <img
                   src={selectedMember.image}
                   alt={selectedMember.name}
-                  className="absolute inset-0 w-full h-full object-cover object-top"
+                  className="absolute inset-0 w-full h-full object-cover object-top grayscale"
                 />
+                <div className="absolute inset-0 bg-brand-blue/20 mix-blend-multiply" />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-black/20" />
 
                 {/* Mobile Title Overlay (Hidden on Desktop) */}

@@ -100,9 +100,9 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
         >
-          <span className="block font-sans text-brand-blue tracking-[0.3em] text-xs sm:text-sm uppercase font-bold mb-4">
+          {/* <span className="block font-sans text-brand-blue tracking-[0.3em] text-xs sm:text-sm uppercase font-bold mb-4">
             Est. 2025
-          </span>
+          </span> */}
           <h1 className="font-serif text-6xl sm:text-7xl md:text-9xl text-white leading-none tracking-wide mb-2 drop-shadow-xl">
             Bloomgoals
           </h1>
@@ -121,8 +121,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}
         >
-          Bespoke transactional, operational, and legal strategies for Nigeria's
-          most ambitious high-growth ventures.
+        Bespoke advisory for high growth ventures in Nigeria.
         </motion.p>
 
         <motion.div
