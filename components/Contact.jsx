@@ -68,17 +68,17 @@ const Contact = () => {
           </p>
 
           <div className="space-y-8">
-            <div className="flex items-start gap-4 group">
+            {/* <div className="flex items-start gap-4 group">
               <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-colors duration-300">
                 <MapPin size={20} />
               </div>
-              {/* <div>
+              <div>
                 <h4 className="font-sans font-bold text-sm uppercase tracking-widest mb-1 text-gray-300">
                   Visit Us
                 </h4>
                 <p className="font-serif text-xl">Lagos, Nigeria</p>
-              </div> */}
-            </div>
+              </div>
+            </div> */}
 
             <div className="flex items-start gap-4 group">
               <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-colors duration-300">
