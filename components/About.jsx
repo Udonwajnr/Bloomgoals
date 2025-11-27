@@ -40,7 +40,7 @@ const About = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            src="../img/lawerClass.png"
+            src="../img/lawyers.jpg"
             alt="Advisory Meeting"
             className="w-full h-full object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
           />

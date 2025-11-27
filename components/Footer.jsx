@@ -17,7 +17,7 @@ const Footer = () => {
             Bloomgoals Advisory
           </h2>
           <p className="font-sans text-gray-500 mt-4 text-sm tracking-widest uppercase">
-            Operations | Compliance | Finance
+           | STRATEGY | OPERATIONS | COMPLIANCE | FINANCE
 
           </p>
         </div>

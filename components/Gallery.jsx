@@ -5,7 +5,7 @@ const images = [
   "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=800&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=800&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1577412647305-991150c7d163?q=80&w=800&auto=format&fit=crop",
-  "../img/lawerClass.png",
+  "../img/lawyers.jpg",
 ];
 
 const Gallery = () => {
