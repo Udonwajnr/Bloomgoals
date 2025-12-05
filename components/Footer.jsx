@@ -41,19 +41,22 @@ const Footer = () => {
         {/* Socials */}
         <div className="flex gap-6 mb-12">
           <a
-            href="#"
+            href="https://www.linkedin.com/company/bloomgoalsadvisory?originalSubdomain=ng"
             className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-brand-blue hover:border-brand-blue transition-all duration-300"
+            target="_blank
+            "
           >
             <Linkedin size={18} />
           </a>
-          <a
+          {/* <a
             href="#"
             className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-brand-blue hover:border-brand-blue transition-all duration-300"
           >
             <Twitter size={18} />
-          </a>
+          </a> */}
           <a
-            href="#"
+            href="https://www.instagram.com/bloomgoals_advisory"
+            target="_blank"
             className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-brand-blue hover:border-brand-blue transition-all duration-300"
           >
             <Instagram size={18} />

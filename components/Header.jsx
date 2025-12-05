@@ -28,7 +28,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-start">
         {/* Social / Contact Icons Left */}
         <div className="flex gap-4 opacity-80">
-          <a href="#" className="hover:text-brand-blue transition-colors">
+          <a href="https://www.linkedin.com/company/bloomgoalsadvisory?originalSubdomain=ng" className="hover:text-brand-blue transition-colors" target="_blank">
             <Linkedin size={20} />
           </a>
           <a
