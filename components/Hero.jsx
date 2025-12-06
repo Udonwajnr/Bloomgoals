@@ -103,8 +103,8 @@ const Hero = () => {
           {/* <span className="block font-sans text-brand-blue tracking-[0.3em] text-xs sm:text-sm uppercase font-bold mb-4">
             Est. 2025
           </span> */}
-          <h1 className="font-serif text-6xl sm:text-7xl md:text-9xl text-white leading-none tracking-wide mb-2 drop-shadow-xl">
-            Bloomgoals
+          <h1 className=" font-serif text-6xl sm:text-7xl md:text-9xl text-white leading-none tracking-wide mb-2 drop-shadow-xl">
+            BLOOMGOALS
           </h1>
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="h-px w-12 sm:w-24 bg-gradient-to-r from-transparent to-white/50"></div>

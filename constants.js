@@ -67,23 +67,15 @@ export const SERVICES = [
     image:
       "https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&w=500&q=60",
   },
-  {
+   {
     id: 2,
-    title: "Company Formation & Corporate Support",
+    title: "ESG and Impact Advisory",
     description:
-      "We guide promoters and business owners through the full process of establishing business entities in Nigeria, including:",
-    listItems: [
-      "Registration of business names, limited liability companies, partnerships, and other structures",
-      "Preparation of pre-incorporation and constitutional documents",
-      "Drafting and negotiation of founders’ and shareholders’ agreements",
-      "Securing sector-specific licenses and approvals from regulators such as CBN, SEC, NIPC, and others",
-      "Intellectual property registration for trademarks, industrial designs and patents",
-      "Tax and statutory registrations including TIN, VAT, PAYE, NSITF, and relevant labour-related filings",
-      "Post-incorporation corporate maintenance, change of directors, shareholding updates, annual returns, alteration of constitutional documents, and more",
-    ],
+      "We help businesses integrate environmental, social, and governance (ESG) considerations into their strategies, operations, and investment decisions. Our support includes developing ESG frameworks, assessing risks and opportunities, establishing impact measurement systems, and aligning business practices with global sustainability standards. We work with clients to strengthen resilience, meet stakeholder expectations, and build long-term value through responsible and transparent practices.",
     conclusion:
-      "Our goal is to ensure that the legal and structural foundation of every business we support is compliant, investor-ready, and scalable.",
-    image: "https://images.pexels.com/photos/3184613/pexels-photo-3184613.jpeg",
+      "Our commercially sophisticated approach ensures clarity, firm risk allocation, and strong legal protection for every client.",
+    image:
+      "https://images.unsplash.com/photo-1521790361543-f645cf042ec4?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: 3,
@@ -102,18 +94,18 @@ export const SERVICES = [
     image:
       "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=500&q=60",
   },
+  // {
+  //   id: 4,
+  //   title: "Business Plan & Grant Proposal Writing",
+  //   description:
+  //     "We work with entrepreneurs and growth-stage ventures to develop investor-ready business plans, pitch decks, and fundraising materials.",
+  //   conclusion:
+  //     "Our team also prepares grant proposals, donor-driven submissions, and impact-focused project proposals that meet global standards and align with funders’ priorities.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=500&q=60",
+  // },
   {
     id: 4,
-    title: "Business Plan & Grant Proposal Writing",
-    description:
-      "We work with entrepreneurs and growth-stage ventures to develop investor-ready business plans, pitch decks, and fundraising materials.",
-    conclusion:
-      "Our team also prepares grant proposals, donor-driven submissions, and impact-focused project proposals that meet global standards and align with funders’ priorities.",
-    image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=500&q=60",
-  },
-  {
-    id: 5,
     title: "Company Secretarial & Compliance",
     description:
       "In Nigeria’s heavily regulated business environment, proactive compliance is essential. Our firm’s secretarial and compliance unit provides ongoing support to ensure clients meet ongoing regulatory and statutory obligations. These include:",
@@ -128,18 +120,28 @@ export const SERVICES = [
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=500&q=60",
   },
+
+  {
+    id: 5,
+    title: "Company Formation & Corporate Support",
+    description:
+      "We guide promoters and business owners through the full process of establishing business entities in Nigeria, including:",
+    listItems: [
+      "Registration of business names, limited liability companies, partnerships, and other structures",
+      "Preparation of pre-incorporation and constitutional documents",
+      "Drafting and negotiation of founders’ and shareholders’ agreements",
+      "Securing sector-specific licenses and approvals from regulators such as CBN, SEC, NIPC, and others",
+      "Intellectual property registration for trademarks, industrial designs and patents",
+      "Tax and statutory registrations including TIN, VAT, PAYE, NSITF, and relevant labour-related filings",
+      "Post-incorporation corporate maintenance, change of directors, shareholding updates, annual returns, alteration of constitutional documents, and more",
+    ],
+    conclusion:
+      "Our goal is to ensure that the legal and structural foundation of every business we support is compliant, investor-ready, and scalable.",
+    image: "https://images.pexels.com/photos/3184613/pexels-photo-3184613.jpeg",
+  },
+ 
   {
     id: 6,
-    title: "ESG and Impact Advisory",
-    description:
-      "We help businesses integrate environmental, social, and governance (ESG) considerations into their strategies, operations, and investment decisions. Our support includes developing ESG frameworks, assessing risks and opportunities, establishing impact measurement systems, and aligning business practices with global sustainability standards. We work with clients to strengthen resilience, meet stakeholder expectations, and build long-term value through responsible and transparent practices.",
-    conclusion:
-      "Our commercially sophisticated approach ensures clarity, firm risk allocation, and strong legal protection for every client.",
-    image:
-      "https://images.unsplash.com/photo-1521790361543-f645cf042ec4?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    id: 7,
     title: "Contractual & Legal Documentation",
     description:
       "Commercially sound contracts are critical to sustainable business operations. We support clients with:",
