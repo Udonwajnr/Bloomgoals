@@ -38,7 +38,7 @@ const Header = () => {
             <Phone size={20} />
           </a>
           <a
-            href="mailto:info@bloomgoals.com"
+            href="mailto:info@bloomgoals.net"
             className="hover:text-brand-blue transition-colors"
           >
             <Mail size={20} />

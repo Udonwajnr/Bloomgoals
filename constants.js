@@ -21,7 +21,7 @@ export const TEAM = [
       "Member, Chartered Institute of Project Management",
       "Member, Chartered Institute of Human Resource Management",
     ],
-    education: "Nnamdi Azikiwe University",
+    education: ["Nnamdi Azikiwe University"],
   },
   {
     id: 3,

@@ -100,7 +100,7 @@ const Contact = () => {
                 <h4 className="font-sans font-bold text-sm uppercase tracking-widest mb-1 text-gray-300">
                   Email Us
                 </h4>
-                <p className="font-serif text-xl">info@bloomgoals.com</p>
+                <a href="mailto:info@bloomgoals.net" className="font-serif text-xl">info@bloomgoals.net</a>
               </div>
             </div>
           </div>
